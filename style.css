@@ -1,4 +1,5 @@
 :root {
     --bg-color: white;
-    --hl-color: darkgrey;
+    --hl-color: black;
+    --p-color: darkgrey;
 }

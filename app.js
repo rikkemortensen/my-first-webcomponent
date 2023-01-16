@@ -17,15 +17,19 @@ template.innerHTML = `
 		width: 100%;
 	}
 
-    h3, p {
+    h3 {
         color: var(--hl-color);
+    }
+
+    p {
+        color: var(--p-color)
     }
   </style>
   <div class="card-type">
     <img/>
     <div>
         <h3></h3>
-        <p><slot name="text" /></p>
+        <p><slot name="main"/></p>
     </div>
   </div>
 `;
